@@ -2,8 +2,16 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, Raleway, sans-serif;
+  background: linear-gradient(180deg, 
+    #001D23 21.81%, 
+    rgba(0, 29, 35, 0.92) 47.62%, 
+    rgba(0, 29, 35, 0.74) 70.51%, 
+    rgba(0, 29, 35, 0.51) 88.04%, 
+    rgba(0, 29, 35, 0.31) 100%) 
+    ;  
+    height: fit-content;
+    background-repeat: no-repeat;
 }
 
 a {
@@ -13,4 +21,66 @@ a {
 
 * {
   box-sizing: border-box;
+  
+}
+
+body {
+  padding: 0 21px 50vmin 21px;
+
+}
+
+@media (min-width: 576px) {
+  body {
+    padding: 0 35px 100vmin 35px;
+  }
+}
+
+@media (min-width: 850px) { 
+  body {
+    padding: 0 60px 64vmin 60px;
+  }
+
+}
+@media (min-width: 1200px) {
+  html {
+    background: #001D23;
+  }
+  body {
+    max-width: 1200px;
+    margin: 0% auto;
+    padding: 0 140px 20vmin 140px;
+    background: #001D23;
+    /* background: linear-gradient(180deg, 
+    rgba(0, 29, 35, 0.51) 88.04%, 
+    rgba(0, 29, 35, 0.31) 100%) 
+    ;   */
+  }
+}
+
+@media (min-width: 1400px) {
+ 
+  body {
+    max-width: 1400px;
+    margin: 0% auto;
+    padding: 0 140px 20vmin 140px;
+    background: #001D23;
+    /* background: linear-gradient(180deg, 
+    rgba(0, 29, 35, 0.51) 88.04%, 
+    rgba(0, 29, 35, 0.31) 100%) 
+    ;   */
+  }
+  html {
+    background: #001D23;
+    /* background: linear-gradient(180deg, 
+    #001D23 21.81%, 
+    rgba(0, 29, 35, 0.92) 47.62%, 
+    rgba(0, 29, 35, 0.74) 70.51%, 
+    rgba(0, 29, 35, 0.51) 88.04%, 
+    rgba(0, 29, 35, 0.31) 100%) 
+    ;   */
+    height: fit-content;
+    background-repeat: no-repeat;
+    
+  }
+  
 }

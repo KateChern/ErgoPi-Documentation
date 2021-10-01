@@ -1,0 +1,67 @@
+.button {
+    width: 30px;
+    background-color: teal;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: -12rem;
+  right: -14.5rem;
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
+  transform: scale(0.07); 
+}
+  
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.icon  {
+  fill: #77ab23d3;
+}
+
+@media (min-width: 1200px) { 
+  .scroll-to-top {
+    bottom: -12rem;
+    right: -6rem;
+  }
+}
+
+@media (min-width: 1500px) { 
+  .scroll-to-top {
+    right: -3rem;
+  }
+}
+@media (min-width: 1650px) { 
+  .scroll-to-top {
+    right: 0rem;
+  }
+}
+
+@media (min-width: 1650px) { 
+  .scroll-to-top {
+    right: 0rem;
+  }
+}
+
+@media (min-width: 1800px) { 
+  .scroll-to-top {
+    right: 8rem;
+  }
+}
+
+@media (min-width: 2000px) { 
+  .scroll-to-top {
+    right: 15rem;
+  }
+}
+@media (min-width: 2300px) { 
+  .scroll-to-top {
+    right: 20rem;
+  }
+}

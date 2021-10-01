@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container a {
+    margin: 10px 5px;
+    width: fit-content;
+    color: rgba(245, 243, 243, 0.479);
+    text-align: left;
+    text-transform: capitalize;
+}
+
+/* 
+.scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+
+.scrollbar-primary {
+    scrollbar-color: rgba(126, 121, 121, 0.199);
+  }
+ 
+   */
+.cart-items  {
+   
+    list-style: none;
+    text-align: left;
+    padding-left: 0%;
+}
+
+@media (min-width: 576px) {
+  .container a {
+    font-size: calc(12px + 1vmin);
+  
+   
+}
+.container {
+ padding: 20px 0px;
+}
+  
+}

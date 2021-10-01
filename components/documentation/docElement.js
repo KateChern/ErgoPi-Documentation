@@ -59,9 +59,9 @@ function DocElement(props) {
                 <p className={styles.description}>{props.data.description}</p>
                 <SyntaxHighlighter
                     style={dracula}
-                    language="jsx"
-                    children={props.data.code}
-                />
+                    language="jsx">
+                    {props.data.code}
+                </SyntaxHighlighter>
             </div>
             <div className={styles[props.classN]}>
                {icon}

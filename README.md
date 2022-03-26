@@ -10,6 +10,8 @@ ErgoPi-Documentation project aims to demonstrate some of my Front end frogrammin
 - Next.js
 - React.js
 
+A hosted version of ErgoPi-Documentation can be found at https://ergo-pi-hgvxiv49f-kate-del.vercel.app/
+
 
 ## Setup
 
